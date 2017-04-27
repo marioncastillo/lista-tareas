@@ -1204,17 +1204,11 @@ var res = 	[
 for (var i = 0; i < 10; i++) {
 	document.write('<li>' + res[i].title +'</ul>');
 }
+function mostrar(){
+	var input = document.getElementById("tareaInput");
 
-(function() {
-	var lista = document.getElementsById("lista");
-	tareaInput	= document.getElementsById("tareaInput");
-	btnNuevaTarea = document.getElementsById("btn-agregar");
+	var guarTarea = document.getElementsByClassName("button");
 
-	var agregarTarea = function(){};
-	var comprobarInput = function(){};
+	guarTarea[0].innerHTML += input.value +"<br>";
 
-	btnNuevaTarea.addEventListener("click",agregarTarea);
-	tareaInput.addEventListener("click",comprobarInput);
-})
-
-
+}
