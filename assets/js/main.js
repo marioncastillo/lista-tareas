@@ -1202,8 +1202,9 @@ var res = 	[
 ]
 
 for (var i = 0; i < 10; i++) {
-	document.write(res[i].title + '<br>');
+	document.write('<li>' + res[i].title +'</ul>');
 }
 
+//document.write('<ul><li>' + usuarios[i].title +'</li></ul>'); //lista para que salga en html
 
 
