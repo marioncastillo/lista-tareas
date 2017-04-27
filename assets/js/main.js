@@ -1209,8 +1209,12 @@ for (var i = 0; i < 10; i++) {
 	var lista = document.getElementsById("lista");
 	tareaInput	= document.getElementsById("tareaInput");
 	btnNuevaTarea = document.getElementsById("btn-agregar");
-	
+
+	var agregarTarea = function(){};
+	var comprobarInput = function(){};
+
+	btnNuevaTarea.addEventListener("click",agregarTarea);
+	tareaInput.addEventListener("click",comprobarInput);
 })
-//document.write('<ul><li>' + usuarios[i].title +'</li></ul>'); //lista para que salga en html
 
 
