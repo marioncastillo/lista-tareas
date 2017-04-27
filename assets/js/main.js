@@ -1201,5 +1201,10 @@ var res = 	[
   }
 ]
 
-function listaTareas()
-var primerasTareas = 
+for (var i = 0; i < 10; i++) {
+	document.write(res[i].title + '<br>');
+}
+
+
+
+
