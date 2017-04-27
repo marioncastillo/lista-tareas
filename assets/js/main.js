@@ -1205,6 +1205,12 @@ for (var i = 0; i < 10; i++) {
 	document.write('<li>' + res[i].title +'</ul>');
 }
 
+(function() {
+	var lista = document.getElementsById("lista");
+	tareaInput	= document.getElementsById("tareaInput");
+	btnNuevaTarea = document.getElementsById("btn-agregar");
+	
+})
 //document.write('<ul><li>' + usuarios[i].title +'</li></ul>'); //lista para que salga en html
 
 
